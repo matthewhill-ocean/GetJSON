@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cronus22-1",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "server": "http://cronus22-1",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            //"startupObjectId": 22,
+            //"startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": true
+        }
+    ]
+}
